@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Oswald;
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+.calculator {
+    padding-right: 19px;
+    border-radius: 12px;
+    border: 10px solid black;
+    width: fit-content;
+    height: 705px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+.container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    grid-gap: 5px;
+}
+.container > button{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+}
+.display{
+    border: 5px ridge darkred;
+    border-radius: 10px;
+    width: 491px;
+    margin: auto;
+    height: 116px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex: none;
+    margin-bottom: 10px;
+}
+.display-top{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.display-bottom{
+    font-size: 30px;
+    padding-top: 16px;
+    padding-left: 29px;
+}
+button{
+    border-radius: 12px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.logo{
+    padding: 1em;
+    width: 200px;
+    border: 3px solid black;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-column: -3 / -1;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    
+}
